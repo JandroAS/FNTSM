@@ -5,12 +5,12 @@
 /* ESTILOS HEADER */ 
 .background {
     background-color: rgba(6, 157, 107, 0.7);
-
 }
 
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-family: 'Oswald', sans-serif;
@@ -55,6 +55,7 @@ li {
 main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -62,6 +63,7 @@ main {
 .text {
     text-justify: auto;
     font-size: 20px;
+    margin: 20px;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -70,6 +72,7 @@ main {
     border-radius: 4%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
@@ -79,6 +82,10 @@ main {
     margin-top: 40px;
     margin-left: 40px;
     width: 30%;
+}
+
+.h2__il {
+    margin-top: 10px;
 }
 
 .img {
@@ -103,6 +110,7 @@ section {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     height: 30%;
+    margin: 10px;
     text-align: center;
 
 }
@@ -173,10 +181,17 @@ section {
     justify-content: space-between;
 }
 
+.img__photo {
+    border: 2px;
+    border-radius: 4%;
+    width: 150px;
+}
+
 .galeria {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;   
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 15% 15% 15%;
+    gap: 85px; 
 }
 
 /* ESTILOS PROVISIONALES PLAYERAS */
