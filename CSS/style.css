@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+
+html {
+    font-size: 62.5%;
+}
 /* ESTILOS HEADER */ 
 .background {
     background-color: rgba(6, 157, 107, 0.7);
@@ -31,7 +35,7 @@ h1 {
 nav {
     width: 50%;
     font-family: 'Inconsolata', monospace;
-    font-size: 15px;
+    font-size: 18px;
 
 }
 
@@ -61,8 +65,10 @@ main {
 }
 
 .text {
+    display: flex;
+    flex-wrap: wrap;
     text-justify: auto;
-    font-size: 20px;
+    font-size: 16px;
     margin: 20px;
     font-family: 'Inconsolata', monospace;
 }
@@ -75,13 +81,13 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     align-items: center;
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;
-    width: 30%;
+    width: 50%;
 }
 
 .h2__il {
@@ -99,7 +105,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 500px;
+    height: 700px;
     width: 40%;
     margin-top: 40px;
     margin-right: 200px;
@@ -121,6 +127,7 @@ section {
     background-color: rgba(159, 189, 208, 0.9);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     font-family: 'Inconsolata', monospace;
     font-size: 40px;
@@ -225,3 +232,46 @@ section {
     margin-top: 50px;
 
 }
+
+/* RESPONSIVE */
+
+@media only screen and (max width: 375px) {
+    .nav__menu {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    nav {
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+    nav {
+    display: flex;
+    flex-direction: column;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title__il {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+    .galeria {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+ 
+
