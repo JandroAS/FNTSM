@@ -25,10 +25,18 @@ h1 {
     margin-left: 20px;
 }
 
+h1:hover {
+    color: red;
+}
+
 .logo {
     height: 150px;
     margin-top: 20px;
     margin-left: 40px;
+}
+
+.logo:hover {
+    color: red;
 }
 
 nav {
@@ -38,6 +46,7 @@ nav {
 
 }
 
+
 .nav__menu {
     display: flex;
     flex-direction: row;
@@ -46,6 +55,10 @@ nav {
 
 li {
     list-style: none;
+}
+
+li:hover {
+    color: red;
 }
 
 /* ESTILOS MAIN INDEX */
