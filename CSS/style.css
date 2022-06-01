@@ -19,7 +19,6 @@ header {
     align-items: center;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
-
 }
 
 h1 {
@@ -87,7 +86,7 @@ main {
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;
-    width: 50%;
+    width: 40%;
 }
 
 .h2__il {
@@ -175,6 +174,8 @@ section {
 /* ESTILOS ILUSTRACIONES */
 
 .section__il {
+    display: flex;
+    flex-direction: column;
     border: solid black 3px;
     border-radius: 4%;
     width: 90%;   
@@ -185,6 +186,7 @@ section {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -210,6 +212,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     width: 90%;
     margin-left: 75px;
     align-items: center;
@@ -235,22 +238,37 @@ section {
 
 /* RESPONSIVE */
 
-@media only screen and (max width: 375px) {
+@media only screen and (max-width: 769px) {
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: left;
+        font-size: 30px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
     .nav__menu {
         display: flex;
         flex-direction: column;
-        
+        align-items: right;
     }
 
     nav {
     display: flex;
     flex-direction: column;
+    align-items: right;
+    width: 30%;
     
-    }
-
-    nav {
-    display: flex;
-    flex-direction: column;
     }
 
     main {
@@ -258,18 +276,41 @@ section {
         flex-direction: column;
     }
 
+    .section__il {
+        display: flex;
+        flex-direction: column;
+        border: solid black 3px;
+        border-radius: 4%;
+        width: 90%;   
+    }
+    
     .title__il {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    font-size: 20px;
     }
     
     .galeria {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
+    .title__eve {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 75px;
+        margin-top: 50px;
     
+    }
+
 }
 
 
