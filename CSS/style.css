@@ -36,7 +36,7 @@ h1:hover {
 }
 
 .logo:hover {
-    color: red;
+    border: solid 2px red;
 }
 
 nav {
@@ -92,7 +92,6 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: 'Oswald', sans-serif;
     font-size: 40px;
     text-align: center;
     align-items: center;
@@ -100,6 +99,7 @@ main {
     margin-top: 40px;
     margin-left: 40px;
     width: 40%;
+    font-family: 'Oswald', sans-serif;
 }
 
 .h2__il {
