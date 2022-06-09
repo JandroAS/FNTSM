@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+h1 {
+    margin-left: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    h1:hover {
+        color: red;
+    }
+}
+
+
+.logo {
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    .logo:hover {
+        border: solid 2px red;
+    }
+}
+
+
+nav {
+    width: 50%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+
+}
+
+
+.nav__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    li:hover {
+        color: red;
+    }
+}
+
