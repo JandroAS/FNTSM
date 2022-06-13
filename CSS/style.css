@@ -3,8 +3,6 @@
     margin: 0px;
     padding: 0px;
 }
-<<<<<<< master
-=======
 
 html {
     font-size: 62.5%; 
@@ -24,7 +22,6 @@ html {
     --text-medium: 35px;
     --text-small: 18px;
 }
->>>>>>> local
 /* ESTILOS HEADER */ 
 .background {
     background-color: var(--main-color)
@@ -36,20 +33,12 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-<<<<<<< master
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-
-=======
     font-size: var(--text-large);
->>>>>>> local
 }
 
 h1 {
     font-family: var(--font-principal);
     margin-left: 20px;
-<<<<<<< master
-=======
     animation-duration: 3s;
     animation-name: slidein;
 }
@@ -65,7 +54,6 @@ h1 {
 
 h1:hover {
     color: var(--alternative-color);
->>>>>>> local
 }
 
 .logo {
@@ -74,12 +62,6 @@ h1:hover {
     margin-left: 40px;
 }
 
-<<<<<<< master
-nav {
-    width: 50%;
-    font-family: 'Inconsolata', monospace;
-    font-size: 15px;
-=======
 .logo:hover {
     border: var(--alternative-color) solid 2px;
 }
@@ -88,7 +70,6 @@ nav {
     width: 50%;
     font-family: var(--font-secondary);
     font-size: var(--text-small);
->>>>>>> local
 
 }
 
@@ -102,13 +83,10 @@ li {
     list-style: none;
 }
 
-<<<<<<< master
-=======
 li:hover {
     color: var(--alternative-color);
 }
 
->>>>>>> local
 /* ESTILOS MAIN INDEX */
 
 .background__article {
@@ -126,11 +104,7 @@ main {
 
 .text {
     text-justify: auto;
-<<<<<<< master
-    font-size: 20px;
-=======
     font-size: var(--text-small);
->>>>>>> local
     margin: 20px;
     font-family: var(--font-secondary);
 }
@@ -142,23 +116,14 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-<<<<<<< master
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-=======
     font-size: var(--text-medium);
->>>>>>> local
     text-align: center;
     align-items: center;
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;
-<<<<<<< master
-    width: 30%;
-=======
     width: 40%;
     font-family: var(--font-principal);
->>>>>>> local
 }
 
 .h2__il {
@@ -246,13 +211,9 @@ section {
 /* ESTILOS ILUSTRACIONES */
 
 .section__il {
-<<<<<<< master
-    border: solid black 3px;
-=======
     display: flex;
     flex-direction: column;
     border: var(--terciary-color) solid 3px;
->>>>>>> local
     border-radius: 4%;
     width: 90%;   
 }
