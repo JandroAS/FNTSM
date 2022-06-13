@@ -1,6 +1,12 @@
+@charset "UTF-8";
 /* EXTERNOS */
 @import url("https://fonts.googleapis.com/css?family=Sofia");
 /* MISC */
+:root {
+  /* COLORES */
+  /* FUENTES */
+  /* TAMAÑOS FUENTES */ }
+
 @keyframes slidein {
   from {
     margin-right: 20px; }
@@ -14,8 +20,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: 'Inconsolata', monospace;
-  font-size: 40px;
+  font-family: var(--font-secondary);
+  font-size: var(--text-medium);
   height: 50px;
   margin-top: 30px; }
 
@@ -25,38 +31,33 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 50px; }
-
-h1 {
-  margin-left: 20px;
-  animation-duration: 3s;
-  animation-name: slidein; }
-  h1 h1:hover {
-    color: red; }
-
-.logo {
-  height: 150px;
-  margin-top: 20px;
-  margin-left: 40px; }
-  .logo .logo:hover {
-    border: solid 2px red; }
-
-nav {
-  width: 50%;
-  font-family: 'Inconsolata', monospace;
-  font-size: 18px; }
-
-.nav__menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
-li {
-  list-style: none; }
-  li li:hover {
-    color: red; }
+  font-size: var(--text-large); }
+  header h1 {
+    font-family: var(--font-principal);
+    margin-left: 20px;
+    animation-duration: 3s;
+    animation-name: slidein; }
+    header h1:hover {
+      color: var(--alternative-color); }
+  header .logo {
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 40px; }
+    header .logo:hover {
+      border: var(--alternative-color) solid 2px; }
+  header nav {
+    width: 50%;
+    font-family: var(--font-secondary);
+    font-size: var(--text-small); }
+  header .nav__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  header li {
+    list-style: none; }
+    header li:hover {
+      color: var(--alternative-color); }
 
 /* VIEWS */
 .background {
-  background-color: rgba(6, 157, 107, 0.7); }
+  background-color: var(--main-color); }

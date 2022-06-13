@@ -1,14 +1,30 @@
+/* NORMALIZACIONES */
 *{
     margin: 0px;
     padding: 0px;
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; 
+}
+
+:root {
+    /* COLORES */
+    --main-color: rgba(6, 157, 107, 0.7);
+    --secondary-color: rgba(233, 226, 32, 0.9);
+    --terciary-color: black;
+    --alternative-color: red;
+    /* FUENTES */
+    --font-principal: 'Oswald', sans-serif;
+    --font-secondary: 'Inconsolata', monospace; 
+    /* TAMAÑOS FUENTES */
+    --text-large: 50px;
+    --text-medium: 35px;
+    --text-small: 18px;
 }
 /* ESTILOS HEADER */ 
 .background {
-    background-color: rgba(6, 157, 107, 0.7);
+    background-color: var(--main-color)
 }
 
 header {
@@ -17,11 +33,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-size: var(--text-large);
 }
 
 h1 {
+    font-family: var(--font-principal);
     margin-left: 20px;
     animation-duration: 3s;
     animation-name: slidein;
@@ -37,7 +53,7 @@ h1 {
 }
 
 h1:hover {
-    color: red;
+    color: var(--alternative-color);
 }
 
 .logo {
@@ -47,13 +63,13 @@ h1:hover {
 }
 
 .logo:hover {
-    border: solid 2px red;
+    border: var(--alternative-color) solid 2px;
 }
 
 nav {
     width: 50%;
-    font-family: 'Inconsolata', monospace;
-    font-size: 18px;
+    font-family: var(--font-secondary);
+    font-size: var(--text-small);
 
 }
 
@@ -69,13 +85,13 @@ li {
 }
 
 li:hover {
-    color: red;
+    color: var(--alternative-color);
 }
 
 /* ESTILOS MAIN INDEX */
 
 .background__article {
-    background-color: rgba(233, 226, 32, 0.9);
+    background-color: var(--secondary-color);
 
 }
 
@@ -102,9 +118,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     text-justify: auto;
-    font-size: 16px;
+    font-size: var(--text-small);
     margin: 20px;
-    font-family: 'Inconsolata', monospace;
+    font-family: var(--font-secondary);
 }
 
 .title__il {
@@ -114,14 +130,14 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: 40px;
+    font-size: var(--text-medium);
     text-align: center;
     align-items: center;
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;
     width: 40%;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-principal);
 }
 
 .h2__il {
@@ -133,9 +149,9 @@ main {
 }
 
 section {
-    border: solid black 3px;
+    border: var(--terciary-color) solid  3px;
     border-radius: 4%;
-    background-color:rgba(233, 226, 32, 0.9);
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -147,10 +163,11 @@ section {
 }
 
 .title__section {
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
+    font-family: var(--font-principal);
+    font-size: var(--text-medium);
     height: 30%;
     margin: 10px;
+    margin-bottom: 30px;
     text-align: center;
 
 }
@@ -163,8 +180,8 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Inconsolata', monospace;
-    font-size: 40px;
+    font-family: var(--font-secondary);
+    font-size: var(--text-medium);
     height: 50px;
     margin-top: 30px;  
 }
@@ -173,14 +190,14 @@ section {
 /* ESTILOS CONTACTO */
 
 .title__contacto {
-    border: solid black 3px;
+    border: var(--terciary-color) solid 3px;
     border-radius: 4%;
-    background-color: rgba(233, 226, 32, 0.9) ;
+    background-color: var(--secondary-color) ;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-family: var(--font-principal);
+    font-size: var(--text-small);
     text-align: center;
     align-items: center;
     height: 700px;
@@ -190,14 +207,14 @@ section {
 }
 
 .title__rs {
-    border: solid black 3px;
+    border: var(--terciary-color) solid  3px;
     border-radius: 4%;
-    background-color: rgba(233, 226, 32, 0.9) ;
+    background-color: var(--secondary-color) ;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-family: var(--font-principal);
+    font-size: var(--text-medium);
     text-align: center;
     align-items: center;
     height: 700px;
@@ -211,15 +228,15 @@ section {
 .section__il {
     display: flex;
     flex-direction: column;
-    border: solid black 3px;
+    border: var(--terciary-color) solid 3px;
     border-radius: 4%;
     width: 90%;   
 }
 
 .title__img {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
+    font-family: var(--font-principal);
+    font-size: var(--text-large);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -241,7 +258,7 @@ section {
 /* ESTILOS PROVISIONALES PLAYERAS */
 
 .title__pla {
-    border: solid black 3px;
+    border: var(--terciary-color) solid  3px;
     border-radius: 3px;
     height: 700px;
     display: flex;
@@ -256,15 +273,15 @@ section {
 /* ESTILOS PROVISIONALES EVENTOS */
 
 .title__eve {
-    border: solid black 3px;
+    border: var(--terciary-color) solid  3px;
     border-radius: 4%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-family: var(--font-principal);
+    font-size: var(--text-medium);
     width: 80%;
     margin-left: 75px;
     margin-top: 50px;
