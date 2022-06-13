@@ -15,12 +15,12 @@ html {
     --terciary-color: black;
     --alternative-color: red;
     /* FUENTES */
-    --font-principal: 'Oswald', sans-serif !important;
-    --font-secondary: 'Inconsolata', monospace !important; 
+    --font-principal: 'Oswald', sans-serif;
+    --font-secondary: 'Inconsolata', monospace; 
     /* TAMAÑOS FUENTES */
-    --text-large: 50px !important;
-    --text-medium: 35px !important;
-    --text-small: 18px !important;
+    --text-large: 50px;
+    --text-medium: 35px;
+    --text-small: 18px;
 }
 /* ESTILOS HEADER */ 
 .background {
