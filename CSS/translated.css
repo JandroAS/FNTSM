@@ -119,6 +119,8 @@ header {
 
 .background {
   background-color: rgba(6, 157, 107, 0.7); }
+  .background__article {
+    background-color: rgba(233, 226, 32, 0.9); }
 
 main {
   display: flex;
@@ -161,11 +163,15 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    /* display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
     height: 700px;
     width: 40%;
     margin-top: 40px;
-    margin-right: 200px;
-    align-items: center; }
+    margin-right: 200px; }
   main .title__section {
     font-family: "Oswald", sans-serif;
     font-size: 35px;

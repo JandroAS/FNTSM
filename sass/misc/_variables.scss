@@ -8,10 +8,9 @@ $colores: (
 );
 
 /* FUENTES */
-$fuentes: (
-   font-principal: 'Oswald', sans-serif,
-   font-secondary: 'Inconsolata', monospace, 
-); 
+
+   $font-principal: 'Oswald', sans-serif;
+   $font-secondary: 'Inconsolata', monospace; 
 /* TAMAÑOS FUENTES */
 
    $text-large: 50px;

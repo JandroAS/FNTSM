@@ -1,5 +1,8 @@
 .background {
     background-color: map-get($colores ,"main-color");
+    &__article {
+        background-color: map-get($colores , "secondary-color" );
+    }
 }
 
 main {
@@ -44,14 +47,15 @@ main {
         border: map-get($colores ,"terciary-color") solid  3px;
         border-radius: 4%;
         background-color: map-get($colores ,"secondary-color");
-        display: flex;
+        @include flex(column, space-between, center);
+        /* display: flex; 
         flex-direction: column;
         justify-content: space-between;
+        /* align-items: center; */
         height: 700px;
         width: 40%;
         margin-top: 40px;
         margin-right: 200px;
-        align-items: center;
     }
     .title__section {
         font-family: $font-principal;
@@ -60,6 +64,5 @@ main {
         margin: 10px;
         margin-bottom: 30px;
         text-align: center;
-    
     }
 }
