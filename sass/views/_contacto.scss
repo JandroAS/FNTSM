@@ -1,0 +1,32 @@
+.title__contacto {
+    border: var(--terciary-color) solid 3px;
+    border-radius: 4%;
+    background-color: var(--secondary-color) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-principal);
+    font-size: var(--text-small);
+    text-align: center;
+    align-items: center;
+    height: 700px;
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.title__rs {
+    border: var(--terciary-color) solid  3px;
+    border-radius: 4%;
+    background-color: var(--secondary-color) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-principal);
+    font-size: var(--text-medium);
+    text-align: center;
+    align-items: center;
+    height: 700px;
+    width: 30%;
+    margin-right: 60px;
+    margin-top: 60px;
+}

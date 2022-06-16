@@ -1,0 +1,15 @@
+.title__eve {
+    border: var(--terciary-color) solid  3px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: var(--font-principal);
+    font-size: var(--text-medium);
+    width: 80%;
+    margin-left: 75px;
+    margin-top: 50px;
+
+}
