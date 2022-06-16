@@ -125,9 +125,9 @@ header {
 main {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   animation-duration: 3s;
   animation-name: slidetext; }
   main .text {
@@ -142,11 +142,11 @@ main {
     border-radius: 4%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     font-size: 35px;
     text-align: center;
-    align-items: center;
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;

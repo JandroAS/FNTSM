@@ -6,11 +6,8 @@
 }
 
 main {
-    display: flex;
-    flex-direction: row;
+    @include flex(row, space-between, center);
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     animation-duration: 3s;
     animation-name: slidetext;
     .text {
@@ -24,13 +21,10 @@ main {
     .title__il {
         border: solid black 3px;
         border-radius: 4%;
-        display: flex;
-        flex-direction: column;
+        @include flex(column, space-between, center);
         flex-wrap: wrap;
-        justify-content: space-between;
         font-size: $text-medium;
         text-align: center;
-        align-items: center;
         height: 500px;
         margin-top: 40px;
         margin-left: 40px;
