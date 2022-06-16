@@ -1,12 +1,12 @@
 .title__contacto {
-    border: var(--terciary-color) solid 3px;
+    border: $terciary-color solid 3px;
     border-radius: 4%;
-    background-color: var(--secondary-color) ;
+    background-color: $secondary-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: var(--font-principal);
-    font-size: var(--text-small);
+    font-family: $font-principal;
+    font-size: $text-small;
     text-align: center;
     align-items: center;
     height: 700px;
@@ -15,14 +15,14 @@
     margin-top: 60px;
 }
 .title__rs {
-    border: var(--terciary-color) solid  3px;
+    border: $terciary-color solid  3px;
     border-radius: 4%;
-    background-color: var(--secondary-color) ;
+    background-color: $secondary-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: var(--font-principal);
-    font-size: var(--text-medium);
+    font-family: $font-principal;
+    font-size: $text-medium;
     text-align: center;
     align-items: center;
     height: 700px;

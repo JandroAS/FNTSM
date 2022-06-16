@@ -1,5 +1,5 @@
 .background {
-    background-color: var(--main-color)
+    background-color: $main-color;
 }
 
 main {
@@ -14,9 +14,9 @@ main {
         display: flex;
         flex-wrap: wrap;
         text-justify: auto;
-        font-size: var(--text-small);
+        font-size: $text-small;
         margin: 20px;
-        font-family: var(--font-secondary);
+        font-family: $font-secondary;
     }
     .title__il {
         border: solid black 3px;
@@ -25,14 +25,14 @@ main {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
-        font-size: var(--text-medium);
+        font-size: $text-medium;
         text-align: center;
         align-items: center;
         height: 500px;
         margin-top: 40px;
         margin-left: 40px;
         width: 40%;
-        font-family: var(--font-principal);
+        font-family: $font-principal;
     }
     .h2__il {
         margin-top: 10px;
@@ -41,9 +41,9 @@ main {
         width: 150px;
     }
     section {
-        border: var(--terciary-color) solid  3px;
+        border: $terciary-color solid  3px;
         border-radius: 4%;
-        background-color: var(--secondary-color);
+        background-color: $secondary-color;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -54,8 +54,8 @@ main {
         align-items: center;
     }
     .title__section {
-        font-family: var(--font-principal);
-        font-size: var(--text-medium);
+        font-family: $font-principal;
+        font-size: $text-medium;
         height: 30%;
         margin: 10px;
         margin-bottom: 30px;

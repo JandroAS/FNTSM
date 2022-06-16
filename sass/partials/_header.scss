@@ -4,14 +4,14 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    font-size: var(--text-large);
+    font-size: $text-large;
     h1 {
-        font-family: var(--font-principal);
+        font-family: $font-principal;
         margin-left: 20px;
         animation-duration: 3s;
         animation-name: slidein;
         &:hover {
-            color: var(--alternative-color);
+            color: $alternative-color;
         }
     }
     .logo {
@@ -19,13 +19,13 @@ header {
         margin-top: 20px;
         margin-left: 40px;
         &:hover {
-            border: var(--alternative-color) solid 2px;
+            border: $alternative-color solid 2px;
         }
     }
     nav {
         width: 50%;
-        font-family: var(--font-secondary);
-        font-size: var(--text-small);
+        font-family: $font-secondary;
+        font-size: $text-small;
     
     }
     .nav__menu {
@@ -36,7 +36,7 @@ header {
     li {
         list-style: none;
         &:hover {
-            color: var(--alternative-color);
+            color: $alternative-color;
         }
     }
 }

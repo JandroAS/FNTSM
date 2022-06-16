@@ -4,8 +4,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: var(--font-secondary);
-    font-size: var(--text-medium);
+    font-family: $font-secondary;
+    font-size: $text-medium;
     height: 50px;
     margin-top: 30px;  
 }

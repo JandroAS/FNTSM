@@ -2,11 +2,9 @@
 /* EXTERNOS */
 @import url("https://fonts.googleapis.com/css?family=Sofia");
 /* MISC */
-:root {
-  /* COLORES */
-  /* FUENTES */
-  /* TAMAÑOS FUENTES */ }
-
+/* COLORES */
+/* FUENTES */
+/* TAMAÑOS FUENTES */
 /* NORMALIZACIONES */
 * {
   margin: 0px;
@@ -34,8 +32,8 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  font-family: var(--font-secondary);
-  font-size: var(--text-medium);
+  font-family: "Inconsolata", monospace;
+  font-size: 35px;
   height: 50px;
   margin-top: 30px; }
 
@@ -45,24 +43,24 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  font-size: var(--text-large); }
+  font-size: 50px; }
   header h1 {
-    font-family: var(--font-principal);
+    font-family: "Oswald", sans-serif;
     margin-left: 20px;
     animation-duration: 3s;
     animation-name: slidein; }
     header h1:hover {
-      color: var(--alternative-color); }
+      color: red; }
   header .logo {
     height: 150px;
     margin-top: 20px;
     margin-left: 40px; }
     header .logo:hover {
-      border: var(--alternative-color) solid 2px; }
+      border: red solid 2px; }
   header nav {
     width: 50%;
-    font-family: var(--font-secondary);
-    font-size: var(--text-small); }
+    font-family: "Inconsolata", monospace;
+    font-size: 18px; }
   header .nav__menu {
     display: flex;
     flex-direction: row;
@@ -70,18 +68,18 @@ header {
   header li {
     list-style: none; }
     header li:hover {
-      color: var(--alternative-color); }
+      color: red; }
 
 /* VIEWS */
 .title__contacto {
-  border: var(--terciary-color) solid 3px;
+  border: black solid 3px;
   border-radius: 4%;
-  background-color: var(--secondary-color);
+  background-color: rgba(233, 226, 32, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: var(--font-principal);
-  font-size: var(--text-small);
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
   text-align: center;
   align-items: center;
   height: 700px;
@@ -90,14 +88,14 @@ header {
   margin-top: 60px; }
 
 .title__rs {
-  border: var(--terciary-color) solid 3px;
+  border: black solid 3px;
   border-radius: 4%;
-  background-color: var(--secondary-color);
+  background-color: rgba(233, 226, 32, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: var(--font-principal);
-  font-size: var(--text-medium);
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
   text-align: center;
   align-items: center;
   height: 700px;
@@ -106,21 +104,21 @@ header {
   margin-top: 60px; }
 
 .title__eve {
-  border: var(--terciary-color) solid 3px;
+  border: black solid 3px;
   border-radius: 4%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-content: center;
   align-items: center;
-  font-family: var(--font-principal);
-  font-size: var(--text-medium);
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
   width: 80%;
   margin-left: 75px;
   margin-top: 50px; }
 
 .background {
-  background-color: var(--main-color); }
+  background-color: rgba(6, 157, 107, 0.7); }
 
 main {
   display: flex;
@@ -134,9 +132,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     text-justify: auto;
-    font-size: var(--text-small);
+    font-size: 18px;
     margin: 20px;
-    font-family: var(--font-secondary); }
+    font-family: "Inconsolata", monospace; }
   main .title__il {
     border: solid black 3px;
     border-radius: 4%;
@@ -144,22 +142,22 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-size: var(--text-medium);
+    font-size: 35px;
     text-align: center;
     align-items: center;
     height: 500px;
     margin-top: 40px;
     margin-left: 40px;
     width: 40%;
-    font-family: var(--font-principal); }
+    font-family: "Oswald", sans-serif; }
   main .h2__il {
     margin-top: 10px; }
   main .img {
     width: 150px; }
   main section {
-    border: var(--terciary-color) solid 3px;
+    border: black solid 3px;
     border-radius: 4%;
-    background-color: var(--secondary-color);
+    background-color: rgba(233, 226, 32, 0.9);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -169,8 +167,8 @@ main {
     margin-right: 200px;
     align-items: center; }
   main .title__section {
-    font-family: var(--font-principal);
-    font-size: var(--text-medium);
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
     height: 30%;
     margin: 10px;
     margin-bottom: 30px;
@@ -179,14 +177,14 @@ main {
 .section__il {
   display: flex;
   flex-direction: column;
-  border: var(--terciary-color) solid 3px;
+  border: black solid 3px;
   border-radius: 4%;
   width: 90%; }
 
 .title__img {
   text-align: center;
-  font-family: var(--font-principal);
-  font-size: var(--text-large);
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
@@ -203,7 +201,7 @@ main {
   gap: 85px; }
 
 .title__pla {
-  border: var(--terciary-color) solid 3px;
+  border: black solid 3px;
   border-radius: 3px;
   height: 700px;
   display: flex;

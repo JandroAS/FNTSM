@@ -1,15 +1,15 @@
 .section__il {
     display: flex;
     flex-direction: column;
-    border: var(--terciary-color) solid 3px;
+    border: $terciary-color solid 3px;
     border-radius: 4%;
     width: 90%;   
 }
 
 .title__img {
     text-align: center;
-    font-family: var(--font-principal);
-    font-size: var(--text-large);
+    font-family: $font-principal;
+    font-size: $text-large;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
