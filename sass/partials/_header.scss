@@ -11,7 +11,7 @@ header {
         animation-duration: 3s;
         animation-name: slidein;
         &:hover {
-            color: $alternative-color;
+            color: map-get($colores , "alternative-color");
         }
     }
     .logo {
@@ -19,7 +19,7 @@ header {
         margin-top: 20px;
         margin-left: 40px;
         &:hover {
-            border: $alternative-color solid 2px;
+            border: map-get($colores , "alternative-color") solid 2px;
         }
     }
     nav {
@@ -36,7 +36,7 @@ header {
     li {
         list-style: none;
         &:hover {
-            color: $alternative-color;
+            color: map-get($colores , "alternative-color");
         }
     }
 }

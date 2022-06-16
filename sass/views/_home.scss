@@ -1,5 +1,5 @@
 .background {
-    background-color: $main-color;
+    background-color: map-get($colores ,"main-color");
 }
 
 main {
@@ -41,9 +41,9 @@ main {
         width: 150px;
     }
     section {
-        border: $terciary-color solid  3px;
+        border: map-get($colores ,"terciary-color") solid  3px;
         border-radius: 4%;
-        background-color: $secondary-color;
+        background-color: map-get($colores ,"secondary-color");
         display: flex;
         flex-direction: column;
         justify-content: space-between;

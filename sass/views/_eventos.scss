@@ -1,5 +1,5 @@
 .title__eve {
-    border: $terciary-color solid  3px;
+    border: map-get($colores ,"terciary-color") solid  3px;
     border-radius: 4%;
     display: flex;
     justify-content: space-around;

@@ -1,7 +1,7 @@
 .section__il {
     display: flex;
     flex-direction: column;
-    border: $terciary-color solid 3px;
+    border: map-get($colores ,"terciary-color") solid 3px;
     border-radius: 4%;
     width: 90%;   
 }
